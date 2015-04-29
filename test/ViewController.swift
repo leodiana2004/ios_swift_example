@@ -22,6 +22,12 @@ class ViewController: UIViewController {
         label.text = "Hello World! 2"
         self.view.addSubview(label)
         
+        var label2 = UILabel(frame: CGRectMake(0, 0, 200, 21))
+        label2.center = CGPointMake(190, 250)
+        label2.textAlignment = NSTextAlignment.Center
+        label2.text = "Hello World! 3"
+        self.view.addSubview(label2)
+        
     }
     @IBOutlet weak var showUILabel: UILabel!
     override func viewDidLoad() {
